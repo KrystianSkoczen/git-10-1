@@ -4,7 +4,9 @@
   "description": "https://krystianskoczen.github.io/git-10-1/",
   "main": "index.js",
   "dependencies": {
-    "browsersync": "0.0.1-security"
+    "browsersync": "0.0.1-security",
+    "flickity": "^2.1.2",
+    "normalize.css": "^8.0.0"
   },
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
