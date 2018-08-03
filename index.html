@@ -7,20 +7,27 @@
 			<title></title>
 		</head>
 		<body>
+			<p class="button"><button class="reset">RESET</button></p>
 			<div class="main-carousel">
-				<div class="carousel-cell">
-					<img src="images/Peugeot1.jpg">
+				<div class="carousel-cell" id="404">
+					<img src="images/404.jpg">
 				</div>
-				<div class="carousel-cell">
-					<img src="images/Peugeot2.jpg">					
+				<div class="carousel-cell" id="407">
+					<img src="images/407.jpg">				
 				</div>
-				<div class="carousel-cell">
-					<img src="images/Peugeot3.jpg">					
+				<div class="carousel-cell" id="508">
+					<img src="images/508.jpg">				
 				</div>
 			</div>
-			<footer></footer>
+			<div class="change_gallery"> 
+				<a href="#404">View 404</a>
+				<a href="#407">View 407</a>
+				<a href="#508">View 508</a>
+			</div>
 
-			//tutaj załadować jQuery
+			<footer></footer>
+			<script src="https://unpkg.com/flickity-hash@1/hash.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="vendor/flickity.pkgd.min.js"></script>
 			<script src="js/script.js"></script>
 		</body>
