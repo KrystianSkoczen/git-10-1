@@ -7,7 +7,11 @@ $('.main-carousel').flickity({
 	hash: true
 });
 
-$('.change_gallery').on( 'click', '.reset', function() {
+var $carousel = $('.main-carousel').flickity({
+  groupCells: true
+});
+
+$('.reset').on( 'click', function() {
   var index = $(this).index();
-  $main-carousel.flickity( 'selectCell', index );
+  $carousel.flickity( 'returnToFirst', index );
 });
