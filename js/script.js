@@ -12,6 +12,5 @@ var $carousel = $('.carousel-cell').flickity({
 });
 
 $('.reset').on( 'click', function() {
-  var index = $('.first');
-  $carousel.flickity( 'select1', index );
+	flickity.select(0);
 });
