@@ -1,16 +1,7 @@
-$('.main-carousel').flickity({
-  // options
-	cellAlign: 'left',
-	draggable: true,
-	prevNextButtons: false,
-	pageDots: false,
-	hash: true
+$('.reset').on( 'click', function() {
+	flickity.select(0);
 });
 
 var $carousel = $('.carousel-cell').flickity({
   groupCells: true
-});
-
-$('.reset').on( 'click', function() {
-	flickity.select(0);
 });
