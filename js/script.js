@@ -1,7 +1,11 @@
-$('.reset').on( 'click', function() {
-	flickity.select(0);
+var flkty = new Flickity( '.main-carousel', {
+    cellAlign: 'left',
+    draggable: true,
+    prevNextButtons: true,
+    pageDots: false,
+    hash: true
 });
 
-var $carousel = $('.carousel-cell').flickity({
-  groupCells: true
+$('.reset').on( 'click', function() {
+    flkty.select(0);
 });
