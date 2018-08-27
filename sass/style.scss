@@ -1,12 +1,11 @@
 body {
 	background-color: #162133;
+	margin: 0;
 }
 .button {
 	text-align: center;
 }
 .main-carousel {
-	width: 100%;
-	height: 50%;
 	position: relative;
 }
 .button {
@@ -16,8 +15,14 @@ body {
 	margin: 0;
 }
 .carousel-cell {
-	padding: 0 3%;
-	height: 600px;
+	width: 100%;
+	height: 500px;
+}
+.container {
+	max-width: 1200px;
+}
+.container p {
+	color: #000;
 }
 .change_gallery {
 	margin: 2%;
