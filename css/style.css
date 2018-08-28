@@ -23,7 +23,8 @@ body {
   max-width: 1200px; 
   color: #000;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  padding-top: 20vh }
 
 .change_gallery {
   margin: 2%;
