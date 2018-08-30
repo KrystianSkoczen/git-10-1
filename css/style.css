@@ -24,7 +24,12 @@ body {
   color: #000;
   text-align: center;
   color: #fff;
-  padding-top: 20vh }
+  padding-top: 20vh; }
+
+.progress-bar {
+  height: 20px;
+  width: 0;
+  background: #fff; }
 
 .change_gallery {
   margin: 2%;
